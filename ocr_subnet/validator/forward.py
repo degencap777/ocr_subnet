@@ -20,9 +20,9 @@
 import time
 import bittensor as bt
 
-from template.protocol import Dummy
-from template.validator.reward import get_rewards
-from template.utils.uids import get_random_uids
+from ocr_subnet.protocol import Dummy
+from ocr_subnet.validator.reward import get_rewards
+from ocr_subnet.utils.uids import get_random_uids
 
 
 async def forward(self):
